@@ -1,50 +1,42 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,viewport-fit=cover">
+    <base href="/heerko/smart-spectral-sensing/">
+    <title>Smart Spectral Sensing</title>
+    <meta property="og:site_name" content="Smart Spectral Sensing">
+    <meta property="og:title" content="Smart Spectral Sensing">
+    <meta name="author" content="heerko">
+    <meta name="description" content="Lilygo TTGO wristband workshop slides
 
-    <base href="{{DECKDECKGO_BASE_HREF}}"/>
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self';
-    img-src 'self' data: https://deckdeckgo.com https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/ https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-beta.appspot.com/ https://www.gstatic.com https://lh5.googleusercontent.com https://pbs.twimg.com https://media.giphy.com https://media.tenor.com/ https://images.unsplash.com/ https://*.githubusercontent.com/ https://*.googleusercontent.com/  https://*.ytimg.com/;
-    style-src 'self' 'unsafe-inline' https://cdn.firebase.com https://fonts.googleapis.com;
-    font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
-    script-src 'self' blob: {{DECKDECKGO_EXTRA_SHAS}} https://cdn.firebase.com https://apis.google.com https://unpkg.com/prismjs@latest/;
-    connect-src 'self' https://deckdeckgo.com/ wss://api.deckdeckgo.com/ https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/ https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-beta.appspot.com/ https://www.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com https://raw.githubusercontent.com/PrismJS/ https://raw.githubusercontent.com/deckgo/ https://api.tenor.com/;
-    frame-src https:">
+">
+    <meta property="og:description" content="Lilygo TTGO wristband workshop slides
 
-    <title>{{DECKDECKGO_TITLE}}</title>
 
-    <meta property="og:site_name" content="{{DECKDECKGO_TITLE}}">
-    <meta property="og:title" content="{{DECKDECKGO_TITLE}}">
-
-    <meta name="author" content="{{DECKDECKGO_AUTHOR}}">
-
-    <meta name="description" content="{{DECKDECKGO_DESCRIPTION}}">
-
-    <meta property="og:description" content="{{DECKDECKGO_DESCRIPTION}}">
-    <meta property="og:site_name" content="{{DECKDECKGO_TITLE}}">
+">
+    <meta property="og:site_name" content="Smart Spectral Sensing">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://beta.deckdeckgo.io{{DECKDECKGO_BASE_HREF}}">
-    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/{{DECKDECKGO_USER_ID}}%2Fpresentations%2F{{DECKDECKGO_DECKNAME}}%2Fdeckdeckgo.png?alt=media">
+    <meta property="og:url" content="https://beta.deckdeckgo.io/heerko/smart-spectral-sensing/">
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fpresentations%2Fsmart-spectral-sensing%2Fdeckdeckgo.png?alt=media">
     <meta property="og:image:type" content="image/png">
-
     <meta name="twitter:site" content="@deckdeckgo">
-    <meta name="twitter:title" content="{{DECKDECKGO_TITLE}}">
-    <meta name="twitter:description" content="{{DECKDECKGO_DESCRIPTION}}">
-    <meta name="twitter:image:src" content="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/{{DECKDECKGO_USER_ID}}%2Fpresentations%2F{{DECKDECKGO_DECKNAME}}%2Fdeckdeckgo.png?alt=media">
+    <meta name="twitter:title" content="Smart Spectral Sensing">
+    <meta name="twitter:description" content="Lilygo TTGO wristband workshop slides
+
+
+">
+    <meta name="twitter:image:src" content="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fpresentations%2Fsmart-spectral-sensing%2Fdeckdeckgo.png?alt=media">
     <meta name="twitter:card" content="summary_large_image">
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{DECKDECKGO_BASE_HREF}}assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{DECKDECKGO_BASE_HREF}}assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{DECKDECKGO_BASE_HREF}}assets/favicon/favicon-16x16.png">
-    <link rel="shortcut icon" href="{{DECKDECKGO_BASE_HREF}}assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/heerko/smart-spectral-sensing/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/heerko/smart-spectral-sensing/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/heerko/smart-spectral-sensing/assets/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/heerko/smart-spectral-sensing/assets/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="{{DECKDECKGO_BASE_HREF}}assets/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="/heerko/smart-spectral-sensing/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', async () => {
@@ -64,19 +56,13 @@
             });
         }
     </script>
-
     <script>
-        window.ROOM_NAME = '{{DECKDECKGO_TITLE}}';
+        window.ROOM_NAME = 'Smart Spectral Sensing';
     </script>
-
     <link rel="manifest" href="manifest.json">
-
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="msapplication-tap-highlight" content="no">
-
-    {{DECKDECKGO_HEAD_EXTRA}}
-
     <style>
         :root {
             background: #ffffff;
@@ -89,12 +75,13 @@
             --ion-text-color: black;
         }
 
-        /* Until Web Components are loaded, don't display content */
+        /* Until Web Components are loaded, don&#39;t display content */
         body {
             background: #ffffff;
         }
 
-        ion-app.loading, ion-app.loading a {
+        ion-app.loading,
+        ion-app.loading a {
             color: transparent;
         }
 
@@ -106,77 +93,191 @@
             display: none;
         }
     </style>
-
 </head>
+
 <body>
+    <ion-app class="loading">
+        <ion-content force-overscroll="false">
+            <deckgo-deck style="--color:rgba(0,0,0,1);" id="slider">
+                <deckgo-slide-title style="--color:rgba(255,255,255,1);" custom-background="true">
+                    <h1 slot="title"><span style="color: rgb(235, 20, 76); background-color: rgb(252, 185, 0);">Smart Spectral Sensing</span>
 
-<ion-app class="loading">
-    <ion-content force-overscroll="false">
+                    </h1>
+                    <section slot="content"><span style="color: rgb(235, 20, 76); background-color: rgb(252, 185, 0);">Lilygo TTGO <span>wristband</span></span>
+                    </section>
+                    <div slot="background">
+                        <deckgo-lazy-img img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fworkshopimg.jpg?alt=media&amp;token=2a58607c-115a-462a-bf26-37f49301dc1b" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fworkshopimg.jpg?alt=media&amp;token=2a58607c-115a-462a-bf26-37f49301dc1b"></deckgo-lazy-img>
+                    </div>
+                </deckgo-slide-title>
+                <deckgo-slide-split style="--slide-split-color-end:rgba(6,147,227,1); --slide-split-color-start:rgba(0,0,0,1); --slide-split-background-start:rgba(171,184,195,1); background: rgb(255, 255, 255);">
+                    <ul slot="start">
+                        <li>​Display
 
-        <deckgo-deck id="slider">
+                        </li>
+                        <li>Button
 
-            <button slot="actions" style="color: inherit; outline: none; background: transparent; border-color: transparent; font-size: 1.6rem;"><ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/more.svg" aria-label="More options"></ion-icon></button>
+                        </li>
+                        <li>Accelerometer
 
-        </deckgo-deck>
+                        </li>
+                        <li>Wifi
 
-        <deckgo-remote></deckgo-remote>
+                        </li>
+                        <li>Bluetooth / BLE
 
-    </ion-content>
+                        </li>
+                        <li>Realtime clock
 
-    <ion-fab vertical="bottom" horizontal="end" slot="fixed" id="navigation">
-        <button id="play" class="navigation ion-activatable" style="display: none;">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/play.svg" aria-label="Play video" style="font-size: 1.4em;"></ion-icon>
-        </button>
+                        </li>
+                        <li>Battery
 
-        <button id="pause" class="navigation ion-activatable" style="display: none;">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/pause.svg" aria-label="Pause video" style="font-size: 1.4em;"></ion-icon>
-        </button>
+                            <br>
+                        </li>
+                    </ul>
+                    <deckgo-lazy-img slot="end" img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FLILYGO-H393_4-1000x1000.jpg?alt=media&amp;token=845ce953-cc59-4dcc-acc4-938c07eaf16d" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FLILYGO-H393_4-1000x1000.jpg?alt=media&amp;token=845ce953-cc59-4dcc-acc4-938c07eaf16d"></deckgo-lazy-img>
+                </deckgo-slide-split>
+                <deckgo-slide-split style="background: rgba(235, 20, 76, 0.14);" custom-background="true" vertical="true">
+                    <h3 slot="start"></h3>
+                    <h3 slot="end"></h3>
+                    <div slot="background">
+                        <deckgo-lazy-img img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FVRoI.gif?alt=media&amp;token=eb2ca566-4722-4113-8e25-6d302356505f" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FVRoI.gif?alt=media&amp;token=eb2ca566-4722-4113-8e25-6d302356505f"></deckgo-lazy-img>
+                    </div>
+                </deckgo-slide-split>
+                <deckgo-slide-youtube style="--color:rgba(255,105,0,1); background: rgba(247, 141, 167, 0.36);" src="https://www.youtube.com/watch?v=ts3JM0OeBfk">
+                    <h1 slot="title">Journey Co-op</h1>
+                </deckgo-slide-youtube>
+                <deckgo-slide-split custom-background="true" vertical="true">
+                    <h2 slot="start" style="color: rgb(255, 255, 255);">Instructions</h2>
+                    <section slot="end" style="color: rgb(255, 255, 255);">https://github.com/hackersanddesigners/smart-spectral-sensing</section>
+                    <div slot="background">
+                        <deckgo-lazy-img img-src="https://media.tenor.com/images/46ce78998c36b839c67cbbdaa5cb39c3/tenor.gif" img-alt></deckgo-lazy-img>
+                    </div>
+                </deckgo-slide-split>
+                <deckgo-slide-content>
+                    <h2 slot="title">Board version</h2>
+                    <deckgo-lazy-img slot="content" img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fversion.jpg?alt=media&amp;token=ef310887-a455-40d1-a26a-9b466f5d8eeb" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fversion.jpg?alt=media&amp;token=ef310887-a455-40d1-a26a-9b466f5d8eeb"></deckgo-lazy-img>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Download the LilyGo Wristband github</h2>
+                    <section slot="content">https://github.com/Xinyuan-LilyGO/LilyGo-T-Wristband</section>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Install driver
+                    </h2>
+                    <section slot="content">Probably you need to install the CH340 Driver. <br>If it doesn&#39;t work try installing the CP21xx driver as well.
+                    </section>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Install board files for ESP32 (if necessary)
 
-        <button id="previous" class="navigation ion-activatable" aria-label="Previous slide">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/arrow-back.svg" aria-label="Previous slide" style="font-size: 1.4em;"></ion-icon>
-        </button>
+                    </h2>
+                    <deckgo-lazy-img slot="content" img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fboard.png?alt=media&amp;token=6e15774b-4049-4065-9c78-af22ac9bed03" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fboard.png?alt=media&amp;token=6e15774b-4049-4065-9c78-af22ac9bed03" style="display: inline-flex; justify-content: center;"></deckgo-lazy-img>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Install the libraries
 
-        <button id="next" class="navigation ion-activatable" aria-label="Next slide">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/arrow-forward.svg" aria-label="Next slide" style="font-size: 1.4em;"></ion-icon>
-        </button>
 
-        <button id="slidePicker" class="navigation ion-activatable" aria-label="Jump to a particular slide">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/list.svg" aria-label="Jump to a particular slide" style="font-size: 1.4em;"></ion-icon>
-        </button>
-
-        <button id="fullScreen" class="navigation ion-activatable hide-on-mobile" aria-label="Full screen">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/expand.svg" aria-label="Full screen" style="font-size: 1.4em;"></ion-icon>
-        </button>
-
-        <button id="remote" class="navigation ion-activatable">
-            <ion-ripple-effect></ion-ripple-effect>
-            <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/phone-portrait.svg" aria-label="Open Remote" style="font-size: 1.4em;"></ion-icon>
-        </button>
-    </ion-fab>
-
-    <!-- Ionic components anchors -->
-    <ion-popover-controller></ion-popover-controller>
-    <ion-modal-controller></ion-modal-controller>
-    <ion-alert-controller></ion-alert-controller>
-
-    <web-social-share show="false" style="--web-social-share-backdrop-opacity: 0.5;">
-        <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/twitter.svg" aria-label="Twitter" slot="twitter" style="color: #00aced; font-size: 1.6rem; display: block;"></ion-icon>
-        <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/linkedin.svg" aria-label="Linkedin" slot="linkedin" style="color: #0077b5; font-size: 1.6rem; display: block;"></ion-icon>
-        <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/mail.svg" aria-label="Email" slot="email" style="color: #ff8ea3; font-size: 1.6rem; display: block;"></ion-icon>
-        <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/whatsapp.svg" aria-label="WhatsApp" slot="whatsapp" style="color: #25D366; font-size: 1.6rem; display: block;"></ion-icon>
-        <ion-icon src="{{DECKDECKGO_BASE_HREF}}assets/icons/ionicons/hackernews.svg" aria-label="Hacker News" slot="hackernews" style="color: #ff6000; font-size: 1.6rem; display: block;"></ion-icon>
-    </web-social-share>
-</ion-app>
-
-<noscript>
-    Please enable Javascript to access this presentation.
-</noscript>
-
+                    </h2>
+                    <ul slot="content">
+                        <li>​pcf8563.h controls the clock chip
+                        </li>
+                        <li>SparkFun_LSM9DS1_Arduino_Library to control the sensor
+                        </li>
+                        <li>TFT_eSPI library to put the graphics on the display (using SPI communication protocol)
+                        </li>
+                        <li>WiFiManager allows you connect the ESP module to the wifi in a graphical interface<br><br>Copy these from the LilyGo Repository!
+                        </li>
+                    </ul>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Connecting the board</h2>
+                    <deckgo-lazy-img slot="content" img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fcables.jpg?alt=media&amp;token=83266728-3a54-442f-a3f4-c2734d4fb875" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2Fcables.jpg?alt=media&amp;token=83266728-3a54-442f-a3f4-c2734d4fb875" style="display: inline-flex; justify-content: center;"></deckgo-lazy-img>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title">Connecting the board
+                    </h2>
+                    <deckgo-lazy-img slot="content" img-src="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FIMG_0776.jpg?alt=media&amp;token=96fce5ff-5517-4da0-bfbd-70c0f2d5337d" img-alt="https://firebasestorage.googleapis.com/v0/b/deckdeckgo-studio-prod.appspot.com/o/akppv3owSqaY3AdtwczoPjfzgTg1%2Fassets%2Fimages%2FIMG_0776.jpg?alt=media&amp;token=96fce5ff-5517-4da0-bfbd-70c0f2d5337d" style="display: inline-flex; justify-content: center;"></deckgo-lazy-img>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title" style="color: rgb(235, 20, 76);">Upload an example
+                    </h2>
+                    <ul slot="content" style="list-style-type: circle; color: rgb(235, 20, 76);">
+                        <li>​helloworld – wakes up the screen when you press the button
+                        </li>
+                        <li>blink – turn the on-board LED on/off with the button
+                        </li>
+                        <li>touchpad_led – turn on LED with feedback in serial
+                        </li>
+                        <li>animation – displays text and a bouncing ball
+                        </li>
+                        <li>invertcolors – displays text in 4 colors, invert with button
+                        </li>
+                        <li>fonts – cycles through installed fonts in 6 sizes (plus a custom one)
+                        </li>
+                        <li>simple_clock – shows clock and date without extra fuss
+                        </li>
+                        <li>ellipses – draws random ellipses in random colors
+                        </li>
+                        <li>sprite – working with objects you can repeat relative to a point
+                            <br><br>You can find the examples in the &quot;Smart Spectral Sensing&quot; repository
+                            <br><br>
+                        </li>
+                    </ul>
+                </deckgo-slide-content>
+                <deckgo-slide-content>
+                    <h2 slot="title" style="color: rgb(235, 20, 76);">Upload an example
+                    </h2>
+                    <ul slot="content" style="list-style-type: circle; color: rgb(235, 20, 76);">
+                        <li>Dot – features three mini programs you can loop through with the touch button (incl accelerometer use)</li>
+                        <li>_Mac_address_colors_ – Scans for wifi devices nearby and displays the MAC addresses of those devices as a color gradient<br><br></li>
+                    </ul>
+                </deckgo-slide-content>
+                <deckgo-slide-content style="background: rgba(235, 20, 76, 0);">
+                    <h2 slot="title">Problems uploading?
+                    </h2>
+                    <section slot="content">If you are getting an error during uploading you may try to lower the upload speed, by going to the menu &#39;Tools&#39; &gt; &#39;Upload Speed&#39;.
+                        <div><br> The default value is 921600, but 460800 seems to works more reliably.
+                        </div>
+                    </section>
+                </deckgo-slide-content><button slot="actions" style="color: inherit; outline: none; background: transparent; border-color: transparent; font-size: 1.6rem;">
+                    <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/more.svg" aria-label="More options"></ion-icon>
+                </button>
+            </deckgo-deck>
+            <deckgo-remote></deckgo-remote>
+        </ion-content>
+        <ion-fab vertical="bottom" horizontal="end" slot="fixed" id="navigation"><button id="play" class="navigation ion-activatable" style="display: none;">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/play.svg" aria-label="Play video" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="pause" class="navigation ion-activatable" style="display: none;">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/pause.svg" aria-label="Pause video" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="previous" class="navigation ion-activatable" aria-label="Previous slide">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/arrow-back.svg" aria-label="Previous slide" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="next" class="navigation ion-activatable" aria-label="Next slide">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/arrow-forward.svg" aria-label="Next slide" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="slidePicker" class="navigation ion-activatable" aria-label="Jump to a particular slide">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/list.svg" aria-label="Jump to a particular slide" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="fullScreen" class="navigation ion-activatable hide-on-mobile" aria-label="Full screen">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/expand.svg" aria-label="Full screen" style="font-size: 1.4em;"></ion-icon>
+            </button> <button id="remote" class="navigation ion-activatable">
+                <ion-ripple-effect></ion-ripple-effect>
+                <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/phone-portrait.svg" aria-label="Open Remote" style="font-size: 1.4em;"></ion-icon>
+            </button></ion-fab>
+        <ion-popover-controller></ion-popover-controller>
+        <ion-modal-controller></ion-modal-controller>
+        <ion-alert-controller></ion-alert-controller>
+        <web-social-share show="false" style="--web-social-share-backdrop-opacity: 0.5;">
+            <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/twitter.svg" aria-label="Twitter" slot="twitter" style="color: #00aced; font-size: 1.6rem; display: block;"></ion-icon>
+            <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/linkedin.svg" aria-label="Linkedin" slot="linkedin" style="color: #0077b5; font-size: 1.6rem; display: block;"></ion-icon>
+            <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/mail.svg" aria-label="Email" slot="email" style="color: #ff8ea3; font-size: 1.6rem; display: block;"></ion-icon>
+            <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/whatsapp.svg" aria-label="WhatsApp" slot="whatsapp" style="color: #25D366; font-size: 1.6rem; display: block;"></ion-icon>
+            <ion-icon src="/heerko/smart-spectral-sensing/assets/icons/ionicons/hackernews.svg" aria-label="Hacker News" slot="hackernews" style="color: #ff6000; font-size: 1.6rem; display: block;"></ion-icon>
+        </web-social-share>
+    </ion-app><noscript>Please enable Javascript to access this presentation.</noscript></script>
 </body>
+
 </html>
